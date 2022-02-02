@@ -1,3 +1,5 @@
+//ListaEncadeadaSimples.c
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "ListaEncadeadaSimples.h"
@@ -98,7 +100,7 @@ int remove_matricula(Lista* lista, int val)
 
 
 
-.H
+//ListaEncadeadaSimples.h
 
 #ifndef LISTAENCADEADASIMPLES_H
 #define LISTAENCADEADASIMPLES_H
@@ -136,7 +138,7 @@ void libera (Lista* lista);
 
 #endif
 
-Main
+//Main
 #include <stdio.h>
 #include <stdlib.h>
 #include "ListaEncadeadaSimples.h"
@@ -167,7 +169,7 @@ Escreva também uma interface filadeints.h  para o módulo.
 
 }
 
-Makefile
+//Makefile
 all: main
 
 main: ListaEncadeadaSimples.o
